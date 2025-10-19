@@ -209,23 +209,28 @@
       </div>
       <!-- page-body-wrapper ends -->
     </div>
-    <!-- container-scroller -->
     <!-- plugins:js -->
     <script src="{{ asset('dist/assets/vendors/js/vendor.bundle.base.js') }}"></script>
+    <!-- Bootstrap JS (com Popper incluso) -->
+    <script src="{{ asset('bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
     <!-- endinject -->
+
     <!-- Plugin js for this page -->
     <script src="{{ asset('dist/assets/vendors/chart.js/chart.umd.js') }}"></script>
     <script src="{{ asset('dist/assets/vendors/public-datepicker/public-datepicker.min.js') }}"></script>
     <!-- End plugin js for this page -->
+
     <!-- inject:js -->
     <script src="{{ asset('dist/assets/js/off-canvas.js') }}"></script>
     <script src="{{ asset('dist/assets/js/misc.js') }}"></script>
-    <script src="ass{{ asset('dist/assets/js/settings.js') }}ets"></script>
+    <script src="{{ asset('dist/assets/js/settings.js') }}"></script>
     <script src="{{ asset('dist/assets/js/todolist.js') }}"></script>
     <script src="{{ asset('dist/assets/js/jquery.cookie.js') }}"></script>
     <!-- endinject -->
+
     <!-- Custom js for this page -->
     <script src="{{ asset('dist/assets/js/dashboard.js') }}"></script>
     <!-- End custom js for this page -->
+
   </body>
 </html>
